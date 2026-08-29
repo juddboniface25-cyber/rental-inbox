@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --lake: #12364a;
+  --pine: #1f4d3a;
+  --sand: #f4efe6;
+  --clay: #c46a3a;
+  --ink: #1a1a1a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--sand);
+  color: var(--ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+}
