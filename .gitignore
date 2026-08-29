@@ -43,3 +43,8 @@ next-env.d.ts
 # local inquiry store
 /data/inquiries.json
 !.env.example
+
+!.env.example
+/data/inquiries.json
+/data/outbox/*
+!/data/outbox/.gitkeep
